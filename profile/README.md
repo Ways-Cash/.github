@@ -1,6 +1,6 @@
 # 🕵️‍♂️ WAYS: Stealth Payments on Solana
 
-> Get paid, stay private.  
+> Get paid, stay private  
 > Generate private payment links at [ways.cash](https://ways.cash)
 
 ---
@@ -16,61 +16,63 @@
 
 ## What is WAYS
 
-WAYS is a stealth address protocol for Solana. It enables unlinkable, one-time-use token accounts derived from a user's main wallet. No new wallet setup. No revealing your identity. Just a clean, private way to receive funds.
+WAYS is a stealth address protocol built for Solana. It lets anyone send SPL tokens or cross-chain USDC to a private, one-time-use address derived from the receiver’s main wallet. No new wallets to manage. No links to public identity.
 
-Every WAYS payment is routed to a unique address that only the intended receiver can control. No public trace. No on-chain footprint tied to your actual wallet.
+Just a clean, private way to receive funds.
+
+Every payment lands in an address only the receiver can access. On-chain activity remains verifiable, but completely unlinkable.
 
 ---
 
 ## Why it matters
 
-On-chain activity is transparent by design. But transparency shouldn't come at the cost of privacy.
+Public wallets expose your entire financial footprint. That shouldn’t be the default.
 
-WAYS gives individuals and organizations a way to receive payments without exposing wallet histories, balances, or affiliations. The system is non-custodial, efficient, and chain-native. It works without extra browser extensions, and integrates easily with existing workflows.
+WAYS brings privacy back to crypto without adding complexity. No trusted parties. No wrapped tokens. No browser extensions. It's simple, self-custodial, and programmable.
 
-Whether you're an independent contributor, protocol operator, or treasury lead — you should be able to transact without leaking your financial graph.
+Whether you're accepting payments, managing treasury flows, or running on-chain operations, WAYS keeps your real address out of sight.
 
 ---
 
-## Core Repository
+## Main Repository
 
 | Repository | Description |
 |------------|-------------|
-| [`ways-stealth-program`](https://github.com/Ways-Cash/ways-stealth-program) | Anchor-based smart contract that handles stealth address creation, payment events, and withdrawals |
+| [`ways-stealth-program`](https://github.com/Ways-Cash/ways-stealth-program) | Anchor smart contract for stealth payments on Solana |
 
 ---
 
-## About the Creator
+## Created by Jordan
 
-WAYS was created by [**Jordan**](https://x.com/yooara), a protocol engineer and serial hackathon winner focused on bringing privacy to production.
+WAYS is built and maintained by [**Jordan**](https://x.com/yooara), a protocol engineer and serial hackathon winner focused on real privacy tooling.
 
-- Website: [jordanpublicc.github.io](https://jordanpublicc.github.io/)
+- Website: [jordanpublicc.github.io](https://jordanpublicc.github.io)
 - Twitter: [@yooara](https://x.com/yooara)
 
-Jordan leads development of WAYS across smart contracts, cryptographic design, and cross-chain integration.
+He designed and implemented the stealth architecture, cross-chain flow, and smart contract core.
 
 ---
 
-## How to Use
+## How it works
 
-- Visit [ways.cash](https://ways.cash)
-- Connect your wallet to generate a stealth payment link
-- Share the link or QR code with anyone
-- Receive funds into an unlinkable ATA
-- Withdraw privately back into your wallet
+1. Go to [ways.cash](https://ways.cash) and connect your wallet
+2. Generate a stealth payment link
+3. Share it or embed it in an invoice
+4. Receive funds privately
+5. Withdraw directly into your wallet with no trail
 
-No extra steps. No gatekeeping. Full custody at every point.
+No additional apps. No account registration. No one watching.
 
 ---
 
 ## Contributing
 
-WAYS is an open protocol. If you're building on Solana, working on privacy tooling, or want to extend stealth addresses into new use cases, contributions are welcome.
+WAYS is open to collaboration. If you're building in Solana, care about privacy, or want to extend stealth payments into other ecosystems, feel free to dive in.
 
-Check the [ways-stealth-program](https://github.com/Ways-Cash/ways-stealth-program) repo for issues, improvements, or integration hooks.
+Start with the `ways-stealth-program` repo. Suggestions, pull requests, and integrations are welcome.
 
 ---
 
 <p align="center">
-  <i>Privacy should be built in. WAYS makes that possible.</i>
+  <i>Privacy isn't a luxury. It's a baseline. WAYS makes it real.</i>
 </p>
